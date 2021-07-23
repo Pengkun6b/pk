@@ -1,2 +1,2 @@
-# pk
-个人的东西
+huanyu@ubuntu:~/Documents/github.pages$ git init
+Initialized empty Git repository in /home/huanyu/Documents/github.pages/.git/
