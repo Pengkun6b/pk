@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: rgb(68, 68, 68);
+    outline: none;
+    border: 0;
+    list-style: none;
+    }
+    
+    html{
+    height: 100%;
+    
+    }
+    
+    body{
+    height: 100%;
+    /* background-color: #fff8ff; */
+    
+    
+    }
+    /* 通用样式 */
+    
+    .AppBox{
+    width: 100%;
+    height: 100%;
+    /* App大容器样式 */
+    overflow: hidden;
+    }
+    .Applunbo img{
+    width: 100%;
+    border-radius: 10px;
+    transition-duration: 0.5s
+    }
+    input{
+    background: none;
+    
+    }
+    .AppTopBack{
+    margin: auto;
+    width: 180%;
+    height: 60px;
+    padding-top: 740px;
+    margin-left: -40%;
+    margin-top:calc(0% - 740px);
+    justify-content: end;
+    /* background-image: linear-gradient(#3a048a, #591faf); */
+    background-color: white;
+    
+    transition-duration: 1s
+    }
+    /* UserMessageTop */
+    .AppTopBackUser{
+    margin-top: -640px;
+    border-radius: 100%;
+    }
+    .AppTop{
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    color: white;
+    left: 0px;
+    top: 0px;
+    padding-left: 20px;
+    line-height: 60px;
+    font-size: 20px;
+    }
+    i{
+    font-size: 40px;
+    color: rgb(238, 222, 253);
+    }
+    
+    .AppBottom{
+    height: 56px;;
+    position: fixed;
+    /* top: calc(100% - 112px); */
+    }
+    .AppCenter{
+    height: calc(100% - 124px);
+    overflow-y: scroll;
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    flex-wrap: nowrap;
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+    }
+    
+    .AppTab{
+    min-width: calc(100% - 20px);
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    transition-duration: 0.5s;
+    
+    padding: 10px;
+    }
+    
+    .Applunbo{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* background-image: url('../img/shit.jpg'); */
+    background-size: cover;
+    display: flex;
+    overflow-x: hidden;
+    }
+    .SerchBox{
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    line-height: 40px;
+    color: #515053
+    }
+    
+    .Toux{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #cccbcc
+    }
+    
+    .UserMsgBox{
+    text-align: center;
+    top: 0px;
+    
+    z-index: 99;
+    width: 101%;
+    padding-top: 30px;
+    padding-left: 5px;
+    
+    }
+    
+    .UserNameBox{
+    font-size: 16px;
+    line-height: 30px;
+    }
+    
+    .UserGq{
+    width: 70%;
+    margin: auto;
+    color: #606060;
+    text-align: center;
+    }
+    
+    .TypeTui{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    }
+    .TypeTui i{
+    font-size: 50px;
+    
+    }
+    .tt1 i{
+    color: rgb(64, 107, 224);
+    }
+    .tt2 i{
+    color: rgb(139, 64, 224);
+    }
+    .TypeTuiBox{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .tt1{
+    width: calc(45% - 10px);
+    }
+    .tt2{
+    width: 55%;
+    }
+    .TuiList{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    }
+    .Tuitiao{
+    width: 48.5%;
+    
+    
+    border-radius: 10px;
+    }
+    .TuijBox{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    }
+    .TuijBox:hover{
+    background-color: rgb(246, 251, 255);
+    }
+    .TuijBox img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    }
+    .TuiTit{
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    padding-bottom: 0;
+    }
+    .Tuijs{
+    padding: 10px;
+    }
+    .oldprice{
+    text-decoration: solid
+    }
+    newprice{
+    color: orangered;
+    font-size: 18px;
+    }
+    .PriceBox{
+    text-align: right;
+    padding: 10px;
+    }
+    
+    .ImgMenuBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:nowrap ;
+    overflow-x: scroll;
+    margin-top: 10px;
+    }
+    
+    .ImgMenu{
+    background-color: white;
+    padding-top: 20px;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    min-width: 80px;
+    margin-right: 10px;
+    }
+    
+    .ImgMenu i{
+    font-size: 30px;
+    
+    }
+    .ImgMenu:hover {
+    transform: scale(0.9);
+    }
+    .ImgMenu label{
+    line-height: 30px;
+    }
+    .zjOrderBox{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 8px;
+    }
+    
+    .zjOrderBox .mdui-list-item-avatar{
+    border-radius: 5px;
+    }
+    .zjOrderBox img{
+    border-radius: 5px;
+    }
+    .mdui-list-item-text{
+    display: flex;
+    justify-content: space-between;
+    }

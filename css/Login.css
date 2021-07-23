@@ -1,0 +1,47 @@
+
+.login{
+    width: 80%;
+    margin: auto;
+}
+.mdui-textfield{
+    width: 80%;
+}
+.wenzi{
+    font-family: "微软雅黑";
+    color: silver;
+    font-size: 14px;
+}
+.center{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.password{
+    display:inline;
+
+}
+.zidong{
+    display:inline;
+}
+.mdui-container{
+   width: 80%;
+   display: flex;
+   flex-direction: row;
+   flex-direction: warp;
+   justify-content: space-around;
+   font-family: "微软雅黑";
+}
+a:hover{
+    color: silver;
+}
+
+.LoginLogo{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;margin-top: 100px;
+    margin-bottom: 40px;
+}

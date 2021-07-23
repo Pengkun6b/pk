@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+    <!-- 样式引入 -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- 字体图标样式 -->
+    <link rel="stylesheet" href="css/AppAll.css">
+    <!-- App大部分通用样式 -->
+    <link rel="stylesheet" href="mdui-v1.0.1 (1)/css/mdui.css">
+    <!-- MDUI样式 -->
+<link rel="stylesheet" href="css/Serch.css">
+
+
+    <!-- 引入JS -->
+    <script src="./mdui-v1.0.1 (1)/js/mdui.js"></script>
+    <!-- MDUI js -->
+    <script src="jq.js"></script>
+</head>
+<body class="mdui-theme-accent-indigo" style="background-color: whitesmoke">
+    <div class="AppBox" style="display: block">
+
+            <div  style="width: 100%;background-color: white; color: rgb(206, 199, 199);display: flex;justify-content:space-between;position:fixed;z-index:99;margin: 0;padding: 20px;padding-top: 0;padding-bottom: 0px;" class="AppTop " style="">
+           
+                    <input id="SerchTb" placeholder="搜点什么呢..." type="text" class="SerchTb">
+               <a href="#" class="mdui-ripple" style="font-size: 16px;width: 35%;text-align: center;text-decoration: none;" onclick="BackPage()">取消</a>
+                    
+                    </div>
+
+                    <!-- 搜索栏 -->
+
+        <div class="zjSerchBox" style="  margin-top: 60px;">
+            <div class="BoxTit"><span>最近搜索 </span> <span  class="mdui-ripple"><i class="mdui-icon material-icons">delete</i></span></div>
+<div class="TuoyuanBox">
+<div class="Tuoyuan">周树人</div>
+<div class="Tuoyuan">笑着面对</div>
+<div class="Tuoyuan">活着</div>
+<div class="Tuoyuan">对不起，我不想再爱了</div>
+<div class="Tuoyuan">Drop The Beat</div>
+<div class="Tuoyuan">迈克尔·威登</div>
+<div class="Tuoyuan">钱是如何不知不觉消失的</div>
+<div class="Tuoyuan">时间在哪</div>
+
+</div>
+
+        </div>
+        
+        <div class="zjSerchBox" >
+                <div class="BoxTit"><span>猜你想搜 </span> <span  class="mdui-ripple"><i class="mdui-icon material-icons">remove_red_eye</i></span></div>
+    <div class="TuoyuanBox">
+    <div class="Tuoyuan"><i class="mdui-icon material-icons redSerch">star</i>向着光明-生而为人我很抱歉</div>
+    <div class="Tuoyuan"><i class="mdui-icon material-icons redSerch">star</i>吴亦凡都美竹解析</div>
+    <div class="Tuoyuan"><i class="mdui-icon material-icons redSerch">star</i>活着</div>
+    <div class="Tuoyuan">热爱或者热爱</div>
+    <div class="Tuoyuan">One Man One Wife</div>
+    <div class="Tuoyuan">HTML高级</div>
+    
+    </div>
+    
+            </div>
+  
+   
+
+    </div>
+
+
+<script>
+$("#SerchTb").focus()
+
+function BackPage(){
+    window.history.back(); 
+}
+</script>
+
+</body>
+</html>

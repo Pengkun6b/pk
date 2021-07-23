@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Login.css">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+  integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw"
+  crossorigin="anonymous"
+/>
+
+<!-- MDUI JavaScript -->
+<script
+  src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+  integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
+  crossorigin="anonymous"
+></script>
+</head>
+<body class="mdui-theme-accent-indigo">
+    <div class="LoginLogo" style="font-weight: bold; color: rgb(75, 104, 196)"> XBookShop<br> </div>
+    <!-- <center style=" color: rgb(158, 180, 255);    margin-bottom: 40px;">登录</center> -->
+    <div class="login">
+      <div class="mdui-textfield" style="width: 100%;">
+        
+        <label class="mdui-textfield-label">请输入用户名....</label>
+        <input maxlength="20" class="mdui-textfield-input" type="text"/>
+      </div>
+      <div class="mdui-textfield" style="width: 100%;">
+       
+        <label class="mdui-textfield-label">请输入密码....</label>
+        <input maxlength="20" class="mdui-textfield-input" type="text"/>
+      </div>
+      <div class="center" style="width: 100%;">
+          <div class="password" >
+              <span><input type="checkbox" ></span>
+              <span class="wenzi">记住密码</span>
+          </div>
+          <div class="zidong" >
+            <span><input type="checkbox"></span>
+            <span class="wenzi">自动登录</span>
+        </div>
+      </div><br><br>
+        <div style="width: 100%;">
+            <div class="mdui-container" >
+                <button class="mdui-btn mdui-color-theme-accent mdui-ripple" style="width:90%; background-color: silver;" onclick="Login()">登录</button>
+              </div><br>
+              <div class="mdui-container" >
+                <button class="mdui-btn mdui-color-theme-accent mdui-ripple "  style="width: 90%; background-color: silver;">还没有账号？点我去注册</button>
+              </div>
+        </div><br>
+        <div class="bottom" style="text-align: center; width: 100%;">
+           <br> <a href="#">登录即同意《xxx协议》</a>
+        </div>
+    </div>
+    <script>
+    function Login(){
+      window.location.href="main.html";
+    }
+    </script>
+</body>
+</html>
